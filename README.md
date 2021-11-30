@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/nft-card-component-solution-9kIWSF2lb)
-- Live Site URL: [Live Preview](https://nft-card-component-anthonyrosman.netlify.app/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/order-summary-component-using-flex-and-grid-NITbISJJa)
+- Live Site URL: [Live Preview](https://order-summary-component-anthonyrosman.netlify.app/)
 
 ### Built with
 
