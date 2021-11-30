@@ -1,0 +1,251 @@
+/* ## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%) */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+
+  font-size: 1.6rem;
+  text-align: center;
+
+  background-image: url(../images/pattern-background-desktop.svg);
+
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+  display: flex;
+  margin: 2vh auto;
+
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  background-color: #fff;
+
+  border-radius: 1.4rem;
+  gap: 3rem;
+}
+
+.hero {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.hero-img {
+  border-radius: 1.4rem 1.4rem 0 0;
+  max-width: 100%;
+}
+
+.main-tittle {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  font-size: 2.4rem;
+}
+
+.description {
+  padding: 0 4rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  max-width: 100%;
+}
+
+.plan {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1.4rem;
+  align-items: center;
+  gap: 1rem;
+  width: 80%;
+  padding: 2rem 3rem;
+  margin-bottom: 1rem;
+}
+
+.plan-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.plan-tittle {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.plan-price {
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-link {
+  color: hsl(245, 75%, 52%);
+  font-weight: 900;
+  font-size: 1.2rem;
+  max-width: 100%;
+  justify-self: flex-end;
+}
+
+.plan-link:hover {
+  text-decoration: none;
+  color: hsl(245, 75%, 52%);
+  opacity: 0.7;
+}
+
+.plan-link-div {
+  display: flex;
+}
+
+.btn {
+  font-weight: 900;
+  border: none;
+}
+.btn-payment {
+  font-weight: 900;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 94%);
+  border: none;
+  min-width: 80%;
+
+  border-radius: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0rem 1rem 1rem 1rem rgba(224, 232, 255, 0.575);
+}
+
+.btn-payment:hover {
+  opacity: 0.5;
+}
+
+.btn-cancel {
+  color: hsl(224, 23%, 55%);
+  background-color: #fff;
+  margin-bottom: 4rem;
+  cursor: pointer;
+}
+
+.attribution a:link,
+.attribution a:visited {
+  text-decoration: none;
+  color: hsl(223, 47%, 23%);
+}
+
+.attribution a:hover,
+.attribution a:active {
+  color: hsl(245, 75%, 52%);
+  transition: all 0.2s ease-in;
+}
+
+.attribution {
+  padding: 2.2rem;
+}
+
+@media (max-width: 1033px) {
+  .description,
+  .plan {
+    font-size: 1.2rem;
+  }
+
+  .main-tittle {
+    font-size: 2rem;
+  }
+
+  .content {
+    gap: 1rem;
+  }
+
+  .card {
+    gap: 1rem;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+  .plan {
+    padding: 1rem 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+  }
+
+  .attribution {
+    padding: 1rem;
+  }
+
+  body {
+    background-image: url(../images/pattern-background-mobile.svg);
+  }
+}
+
+@media (max-width: 865px) {
+  .description {
+    font-size: 1rem;
+  }
+
+  .main-tittle {
+    font-size: 1.4rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  .card {
+    width: 50%;
+  }
+  body {
+    background-image: url(../images/pattern-background-mobile.svg);
+  }
+}
+
+@media (max-width: 463px) {
+  .card {
+    width: 75%;
+  }
+
+  .description {
+    font-size: 1.2rem;
+  }
+
+  body {
+    background-image: url(../images/pattern-background-mobile.svg);
+  }
+}
+
+@media (max-width: 343px) {
+  .card {
+    width: 85%;
+  }
+}
