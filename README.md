@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](screenshot-1.png)
+![](https://raw.githubusercontent.com/D3press3dd/order-summary-component/main/Screenshot-1.png)
 
 ### Links
 
